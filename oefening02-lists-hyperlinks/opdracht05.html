@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="nl">
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Opdracht05</title>
   </head>
 
   <body>
     <header>
-      <h1>HoGent</h1>
+      <h1 id="topOfPage">HoGent</h1>
       <p>Enkele bachelor opleidingen...</p>
+      <nav>
+        <a href="#AgBio">AgBio</a> <a href="#BM">BM</a>
+        <a href="#BioLabo">BioLabo</a> <a href="#Ch">Ch</a>
+        <a href="#DigDev">DigDev</a>
+      </nav>
     </header>
     <main>
-      <article>
+      <article id="AgBio">
         <h2>Agro- en biotechnologie</h2>
         <p>
           Ben je geboeid door natuur, planten, dieren en voeding en ben je
@@ -22,7 +26,7 @@
           elkaar kent.
         </p>
       </article>
-      <article>
+      <article id="BM">
         <h2>Bedrijfsmanagement</h2>
         <p>
           De opleiding bedrijfsmanagement duurt drie jaar. Je kiest vanaf het
@@ -31,14 +35,14 @@
           beroepsleven.
         </p>
       </article>
-      <article>
+      <article id="BioLabo">
         <h2>Biomedische laboratoriumtechnologie</h2>
         <p>
           Voor deze opleiding is geen voorkennis vereist. Maar heb je een sterke
           affiniteit met wetenschappen? Dan zal deze zeker goed van pas komen!
         </p>
       </article>
-      <article>
+      <article id="Ch">
         <h2>Chemie</h2>
         <p>
           Er bestaat niets boeienders voor jou dan wetenschappen, biologie en
@@ -47,7 +51,7 @@
           chemie of milieutechnologie vanaf het tweede jaar.
         </p>
       </article>
-      <article>
+      <article id="DigDev">
         <h2>Digital Design & Development</h2>
         <p>
           In een wereld die razendsnel verandert, laat de toekomst zich niet
@@ -58,16 +62,21 @@
         </p>
       </article>
     </main>
+    <a href="#topOfPage">
+      <p>Terug Naar Boven</p>
+    </a>
     <footer>
-      <p>Voor meer informatie kan je ons bereiken op:</p>
-      <p>
-        Hogeschool Gent<br />
-        V. Vaerwyckweg 1<br />
-        9000 Gent<br />
-        België<br />
-        &phone; +329543210<br />
-      </p>
+      <address>
+        <p>Voor meer informatie kan je ons bereiken op:</p>
+        <p>
+          Hogeschool Gent<br />
+          V. Vaerwyckweg 1<br />
+          9000 Gent<br />
+          België<br />
+          <a href="tel:+329543210">Bel</a><br />
+          <a href="mailto:info@hogent.be">Mail</a>
+        </p>
+      </address>
     </footer>
   </body>
-
 </html>
